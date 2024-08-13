@@ -1,0 +1,19 @@
+package codingbat.warmup2;
+
+public class FrontTimes {
+    public static void main(String[] args) {
+        FrontTimes obj = new FrontTimes();
+        System.out.println(obj.frontTimes("Hello", 3));
+
+    }
+    public String frontTimes(String str, int n) {
+        StringBuilder result = new StringBuilder();
+        for (int i = 0; i < n; i++) {
+            if (str.length() >= 3) {
+                result.append(str.substring(0, 3));
+            } else{
+                result.append(str);
+            }
+        } return result.toString();
+    }
+}
