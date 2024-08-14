@@ -1,2 +1,4 @@
-package reset;public class Reset1 {
+package reset;
+
+public class Reset1 {
 }
